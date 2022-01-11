@@ -1452,57 +1452,6 @@ break
              reply(`*The format is wrong tod, this is an example of the correct format* : ${prefix + command} halo|10`)
 }
              break
-			    case 'nuke':
-              if (!isGroup) return reply(mess.only.group)
-              if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-              if (args.length < 1) return reply('හයිජැක් වෙන ගමන්')
-              reply('Otw Hack')
-                tessgc = await getBuffer(`https://i.ibb.co/m4Qx3JG/20210319-204838.jpg`)
-                   bosco.updateProfilePicture (from, tessgc)
-                   await sleep(1000)
-                bosco.groupUpdateDescription(from, "᳄‣𝐓𝐇𝐢𝐒 𝐆𝐑𝚯𝐔𝐏 𝐇𝛥𝐒 𝐁𝚵𝚵𝐍 𝐂𝐋𝚯𝐒𝚵𝐃 𝐁𝐘 𝐕𝐢𝐑𝐔𝐒 𝐅𝐔𝐂𝐊𝚵𝐑𝐒 𝚯𝐅𝐂💓-2021©  [𝐕𝐅͢𝚯 𝐂͢𝚯𝐍𝐒𝚯̲̲̲𝐋𝐄📴] 𝐊𝐢𝐋𝐢-𝐕𝐅𝚯 𝐏𝛥𝐒𝐒𝐢𝐍𝐆 𝐓𝐇𝐑𝚯𝐔𝐆𝐇💖҈⃝ݳ ")             
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "🤖🤖🤖🤖🤖")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "🎈🎈🎈🎈🎈")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, ":]")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "👑:👑:👑")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "❗❗❗❗❗")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "O")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "Ow")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwN")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNe")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD ")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD B")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD By")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD By ")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD By V")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD By VF")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD By VFO")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "RAID BY KILI-VFO")
-                await sleep(1000)
-                bosco.groupUpdateSubject(from, "OwNeD By VFO")
-                bosco.sendMessage(from, 'OwNeD By VFO💓', text, {quoted: mek})
-					break
-			
-			
      case 'seenby':
              if(!isGroup) return reply(mess.only.group)
              try {
@@ -1755,6 +1704,7 @@ break
 		            fs.unlinkSync(ran)
 		            })
 		            break
+			    
              case 'nightcore':
 	                 if (!isQuotedAudio) return reply('Reply audio nya om')
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
